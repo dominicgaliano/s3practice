@@ -7,8 +7,11 @@ app.use(express.static("static"));
 app.use(express.urlencoded({ extended: true }));
 
 // routes
-app.get("/", (req, res) => {
-  res.send("Hello World!");
+app.post("/files", (req, res) => {
+  // implement s3 uploading
+
+  console.log("upload route hit");
+  res.send(201);
 });
 
 app.listen(port, () => {
