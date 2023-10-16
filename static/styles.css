@@ -1,0 +1,52 @@
+/* Boilerplate */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+/* Site Specific */
+
+body {
+    max-width: 1440px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 1.6rem 0;
+    width: 90%;
+    overflow-x: hidden;
+
+    font-family: "Poppins", system-ui, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center
+}
