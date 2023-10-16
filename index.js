@@ -13,7 +13,6 @@ app.use(express.urlencoded({ extended: true }));
 app.post("/files", (req, res) => {
   // implement s3 uploading
 
-  console.log("upload route hit");
   res.redirect("/");
 });
 
