@@ -11,7 +11,7 @@ app.post("/files", (req, res) => {
   // implement s3 uploading
 
   console.log("upload route hit");
-  res.send(201);
+  res.redirect("/");
 });
 
 app.listen(port, () => {
