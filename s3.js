@@ -35,6 +35,8 @@ async function uploadFile(file) {
   }
 }
 
-function downloadFile(fileName) {}
+function downloadFile(fileName) {
+  throw new Error("Not implemented");
+}
 
 module.exports = { uploadFile, downloadFile };
